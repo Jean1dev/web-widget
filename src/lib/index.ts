@@ -1,3 +1,3 @@
-import './global.css';
+import '../global.css';
 
 export { Widget } from '../components/Widget';
