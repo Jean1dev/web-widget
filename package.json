@@ -1,6 +1,6 @@
 {
   "name": "binno-web-widget",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -37,6 +37,7 @@
     ".": {
       "import": "./dist/my-lib.es.js",
       "require": "./dist/my-lib.umd.js"
-    }
+    },
+    "./dist/style.css": "./dist/style.css"
   }
 }
